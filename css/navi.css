@@ -1,0 +1,44 @@
+.navi ul {
+    list-style-image: none;
+    list-sytle-position: outside;
+    list-style-type: none;
+    margin: 0px 5px 0px 10px;
+    padding: 0px;
+}
+
+.navi ul li {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 20px;
+}
+
+.navi ul li:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.navi ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.navi ul li:first-child {
+    border-top: 1px solid #aaaaaa;
+}
+
+div.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 200px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
